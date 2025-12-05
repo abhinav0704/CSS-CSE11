@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media_queries</title>
+    <style>
+        @media(max-width:768px){
+            p{       border:black double 3px;
+                     font-size:20px;
+                     background-color:bisque;
+                    color:black;
+                    }
+                     .box{
+                        width:100%;
+                        height:100px;
+                        background:linear-gradient(to left,orange,white);
+                        border: double 5px;
+            border-image: linear-gradient(to right, rgb(252, 103, 103), rgb(247, 179, 52), yellow, indigo, violet) 1;
+            margin: 5px;
+                     }
+                     nav ul{
+            display:flex;
+            justify-content: space-around;
+            flex-direction: column;
+            
+        }
+
+        
+        
+    }
+        @media(min-width:790px){
+            p{
+                     font-size:15px;
+        }
+        .box2{
+           background: linear-gradient(90deg, #fc7171 0%, #ff7373 50%, #fa3434 100%);
+           border: double 5px;
+            border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
+            margin: 5px;
+
+        }
+        .box{
+            background:linear-gradient(to right,white,yellow);
+            border: 5px double black;
+        }
+        li{
+            list-style-type:none;
+            text-decoration: none;
+        }
+        nav ul{
+            display:flex;
+            justify-content: space-around;
+        }
+
+        
+    }
+    </style>
+</head>
+<body> 
+    <!-- 320 px  small phone 
+    480 px  large phone
+    768 px tablet
+    1024 px   small laptop
+    1200 px   desktop -->
+    <div class="box2">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est maiores atque excepturi at eius delectus eveniet asperiores possimus, quibusdam porro repellendus pariatur modi aliquam hic veniam eaque consequatur, labore ipsa totam alias repudiandae nemo architecto. Ducimus deleniti reprehenderit sapiente nemo. Quae vero enim distinctio, iusto atque error, dignissimos amet laboriosam possimus, eligendi aliquid veritatis cumque natus aliquam rem porro dolorem laborum vel voluptatibus doloremque. Rem illo tenetur voluptas alias accusantium omnis voluptatum totam temporibus. Quod, pariatur cupiditate? Ad earum praesentium porro quibusdam quas alias sunt, architecto nobis vitae? Eius laborum inventore possimus quod nisi unde, animi aliquam voluptates obcaecati. Ab!
+</p>
+</div>
+<div class="box">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit est adipisci ipsum aspernatur eveniet nobis sequi explicabo, accusantium, laborum pariatur sunt eos placeat in voluptates inventore nihil dignissimos ex non dolores illum recusandae impedit? Placeat optio laudantium voluptas, accusantium inventore ab non animi et totam amet quos illo nisi harum?
+</div>
+<nav>
+    <ul>
+        <li><a href="_#">Home</a></li>
+        <li><a href="_#">About</a></li>
+        <li><a href="_#">Contact</a></li>
+    </ul>
+</nav>
+</body>
+</html>
